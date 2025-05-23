@@ -1,0 +1,84 @@
+.app {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background: #81ad5d;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sidebar .logout {
+  margin-top: auto;
+  padding: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background: #ecf4ec;
+}
+
+.header {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+}
+
+.stat {
+  background: rgb(64, 142, 15);
+  padding: 10px;
+  border: 1px solid #064e0b;
+  flex: 1;
+  text-align: center;
+}
+
+.stock-table table,
+.sales-record table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.stock-table th,
+.stock-table td,
+.sales-record th,
+.sales-record td {
+  border: 1px solid #167609;
+  padding: 8px;
+  text-align: center;
+}
+
+.out-of-stock {
+  background-color: #36e948;
+  color: #721c24;
+}
+
+.charts {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.chart-section {
+  background: rgb(169, 228, 174);
+  padding: 10px;
+  border: 1px solid #ccc;
+}
