@@ -1,0 +1,110 @@
+body, html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('./public/ricetrax-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-container {
+  display: flex;
+  justify-content: flex-start; /* aligns container to the left */
+  align-items: center;
+  height: 100vh;
+  padding-left: 130px; /* pushes box slightly to the right */
+}
+
+.login-box {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-circle {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.logo-circle img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form label {
+  width: 100%;
+  text-align: left;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 0.3rem;
+  background: #fff9d6;
+  box-shadow: 1px 1px 3px #999;
+}
+
+.forgot-password {
+  width: 100%;
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #666;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  border: none;
+  background: #d4a62c;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px #555;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #c6952a;
+}
+
+.switch-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.switch-link a {
+  color: #444;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 4px;
+  width: 100%;
+  text-align: left;
+}
